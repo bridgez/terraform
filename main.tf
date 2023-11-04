@@ -39,5 +39,5 @@ variable "AWS_SECRET_ACCESS_KEY" {
 }
 
 variable "AWS_DEFAULT_REGION" {
-  description = "AWS_DEFAULT_REGION"
+  description = "AWS DEFAULT REGION"
 }
