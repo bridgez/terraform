@@ -1,4 +1,3 @@
-# terraform { cloud { organization = "bridgez" workspaces { name = "example-workspace" } } }
 terraform {
   cloud {
     organization = "bridgez"
