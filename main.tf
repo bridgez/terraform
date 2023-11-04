@@ -38,3 +38,7 @@ variable "AWS_ACCESS_KEY_ID" {
 variable "AWS_SECRET_ACCESS_KEY" {
   description = "AWS Secret Access Key"
 }
+
+variable "AWS_DEFAULT_REGION" {
+  description = "AWS_DEFAULT_REGION"
+}
