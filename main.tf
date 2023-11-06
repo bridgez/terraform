@@ -1,10 +1,7 @@
 terraform {
-  cloud {
-    organization = "bridgez"
-    workspaces {
-      name = "example-workspace"      
-    }
-  }
+
+# for local
+  required_version = ">= 0.14.9"
   required_providers {
     aws = {
       source  = "hashicorp/aws"
@@ -12,7 +9,14 @@ terraform {
     }
   }
 
-  required_version = ">= 0.14.9"
+#for cloud
+  cloud {
+    organization = "bridgez"
+    workspaces {
+      name = "example-workspace"      
+    }
+  }
+
 }
 
 provider "aws" {
